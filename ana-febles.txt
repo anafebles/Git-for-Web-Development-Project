@@ -1,0 +1,145 @@
+https://codepen.io/AnaFebles/pen/vYLrexy
+
+
+1. What is the difference between an inline element and a block element? 
+in line: it will not force a new line break, everything will be aling in the same line. we cannot put in block elements on in line ones. 
+block: will forcve a new line to be created.
+
+2. What happens when an element is positioned absolutely?
+it is a fixed psititon, basically it will not move from that place.
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+div
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default 
+
+block: div, header, section
+in line: span, img
+
+5. In your own words, explain the box model. What is the fix for the box model?
+everything in CSS is boxes, both in line and block. This helps understanding layout and how to align elements. 
+
+
+37 questions
+
+What is Semantic HTML? 
+its an element with meaning
+
+    2. What is HTML used for? 
+	is a markup language used to display content in  browser
+
+    3. What is an attribute and where do we put it? 
+	 define properties of the element and we put it in the start tag
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	h1 tags are used for the main title and its only used once
+
+    5. Name two tags that have required attributes
+	a and img
+
+    6. What do we put in the head of our HTML document?
+	title
+	metadata
+ 
+    7. What is an id? 
+	selector used once in an element
+	
+    8. What elements can I add an id to? 
+	all elements
+
+    9. How many times can I use the same id on a page? 
+	once	
+
+    10. What is a class? 
+	is an attribute that specifies the class name of an element
+
+    11. What elements can I add a class to?
+	all elements
+ 
+    12. How many times can I use the same class on a page? 
+	multiple
+
+    13. How do I get my link to open in a new tab?
+	with a targeted  "_blank"
+
+    14. What is the alt attribute in the image tag used for? 
+	to add a description of the image in case is not avaialble
+
+    15. How do I reference an id?
+	with #
+
+    16. What is the difference between a section and a div
+	The <section> tag defines sections in a document and the div defines a 	division
+
+    17. What is CSS used for? 
+	to add layout control and decorate the html
+
+    18. How to we select an element? Example - every h2 on the page
+	if its a tag, we just write the name of the tag, \
+	if its an id #, a class .
+	
+    19. What is the difference between a class and an id? - Give me an example 	of when I might use each one
+	class can be used mora than once for example, adding a class to <p> 	will select all of the html file <p>.
+	id is to be used once, for example, using an id for an img to only make 	changes that one img and not the rest
+
+    20. How do we select classes in CSS?
+	using .
+
+    21. How do we select a p element with a single class of “human””?
+	.human
+
+    22. What is a parent child selector? When would this be useful? 
+	this selects elements that are directly a child of that main element
+
+    23. How do you select all links within a div with the class of sidebar?
+	.sidebar a
+
+    24. What is a pseudo selector?
+	its used to define a state of an element
+
+    25. What do we use the change the spacing between lines?
+	in html <br>
+	in css you can use line-height property
+
+    26. What do we use to change the spacing between letters?
+	using letter-spacing in css
+
+    27. What do we use to to change everything to CAPITALS? lowercase? 	Capitalize?
+	text-transform uppercase or lowercase
+
+    28. How do I add a 1px border around my div that is dotted and black?
+	div border-style: dotted black 1px
+
+    29. How do I select everything on the page?
+	with *
+	 
+    30. How do I write a comment in CSS?
+	/*... */
+	
+    31. How do I find out what file I am in, when I am using the command line? 
+	pwd
+	
+    32. Using the command line - how do I see a list of files/folders in my 	current folder?
+	ls
+	
+    33. How do I remove a file via the command line? Why do I have to be 	careful with this? 
+	del then file name (windows) and we need to be careful because this can 	delete even files youre currently working on
+	
+    34. Why should I use version control? 
+	to keep track of my work in case of mistakes
+	
+    35. How often should I commit to github?
+	evrytime i make a change
+	
+    36. What is the command we would use to push our repo up to github? 
+	git push origin and my name
+	
+    37. Walk me through Lambda's git flow.
+	fork
+	clone
+	cd into file
+	create new branch
+	commit
+	push
+	pull request 
+	
